@@ -18,6 +18,7 @@ code {
 body {
     margin: 0;
     font-family: "Inter", sans-serif;
+    background-color: #282d35;
 }
 .App-logo {
     width: 40px;
@@ -29,9 +30,25 @@ body {
     padding: 30px 25px;
     height: 70px;
     align-items: center;
-    color: white;
 }
 .logo-title {
+    font-size: 22px;
     color: #61dafb;
     margin-right: auto;
+}
+.title {
+    color: #deebf8;
+    font-weight: 600;
+}
+.main {
+    color: #deebf8;
+    padding: 30px 35px;
+}
+.transperant-logo {
+    width: 400px;
+    opacity: 5%;
+    color: #33373e;
+}
+.text {
+    display: flex;
 }
