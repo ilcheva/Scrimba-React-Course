@@ -1,4 +1,4 @@
-import logo from '../logo.svg';
+// import logo from '../logo.svg';
 
 
 function Main() {
@@ -13,7 +13,7 @@ function Main() {
                     <li>Is maintained by Facebook</li>
                     <li>Powers thousands of enterprise apps, including mobile apps</li>
                 </ul>
-                <img src={logo} className="transperant-logo" alt="logo" />
+                {/* <img src={logo} className="transperant-logo" alt="logo" /> */}
             </div>
 
 

@@ -31,6 +31,10 @@ body {
     height: 70px;
     align-items: center;
 }
+.logo-title,
+.title {
+    margin: 0;
+}
 .logo-title {
     font-size: 22px;
     color: #61dafb;
@@ -41,7 +45,7 @@ body {
     font-weight: 600;
 }
 .main {
-    color: #deebf8;
+    color: #ffffff;
     padding: 30px 35px;
 }
 .transperant-logo {
@@ -51,4 +55,28 @@ body {
 }
 .text {
     display: flex;
+}
+.main-title {
+    margin: 0;
+    font-size: 39px;
+    letter-spacing: -0.05em;
+}
+.facts {
+    margin-top: 50px;
+    max-width: 400px;
+}
+
+.facts > li {
+    line-height: 19px;
+    padding-block: 10px;
+}
+
+.facts > li::marker {
+    color: #61dafb;
+    font-size: 1.4rem;
+}
+.main {
+    background-image: url("react-icon-large.png");
+    background-repeat: no-repeat;
+    background-position: right 75%;
 }
