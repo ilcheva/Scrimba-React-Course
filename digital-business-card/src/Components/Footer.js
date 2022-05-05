@@ -6,11 +6,15 @@ import { faFacebookSquare, faTwitterSquare, faInstagramSquare, faGithubSquare } 
 
 const Footer = () => {
     return (
-        <div className="footer">            
-            <FontAwesomeIcon className='twitter' icon={faTwitterSquare} size='2x' color='#918E9B'/>
-            <FontAwesomeIcon  className='instagram' icon={faInstagramSquare}size='2x'  />
-            <FontAwesomeIcon className='facebook'  icon={faFacebookSquare} size='2x' />
-            <FontAwesomeIcon className='github' icon={faGithubSquare} size='2x' />
+        <div className="footer">
+            <a href="https://twitter.com/settings/profile" target="_blank" rel="noreferrer">
+                <FontAwesomeIcon className='twitter' icon={faTwitterSquare} size='2x' color='#918E9B' /></a>
+            <a href="https://www.instagram.com/ilcheva/" target="_blank" rel="noreferrer">
+                <FontAwesomeIcon className='instagram' icon={faInstagramSquare} size='2x' /></a>
+            <a href="https://www.facebook.com/simona.ilcheva/" target="_blank" rel="noreferrer">
+                <FontAwesomeIcon className='facebook' icon={faFacebookSquare} size='2x' /></a>
+            <a href="https://github.com/ilcheva" target="_blank" rel="noreferrer">
+                <FontAwesomeIcon className='github' icon={faGithubSquare} size='2x' /></a>
         </div>
     )
 }
